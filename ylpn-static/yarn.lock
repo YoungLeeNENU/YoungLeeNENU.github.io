@@ -4913,9 +4913,9 @@ postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.13:
     source-map "^0.6.1"
     supports-color "^4.4.0"
 
-prajna-wrapper-plugin@^1.0.0-alpha.1:
-  version "1.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/prajna-wrapper-plugin/-/prajna-wrapper-plugin-1.0.0-alpha.1.tgz#998671e090b0ef2c6acc839b85edfe9d7fef75f9"
+prajna-wrapper-plugin@^1.0.0-alpha.2:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/prajna-wrapper-plugin/-/prajna-wrapper-plugin-1.0.0-alpha.2.tgz#fafaaf032ca55d39f1828181320d250cc2816a7e"
   dependencies:
     cheerio "^1.0.0-rc.2"
     js-beautify "^1.7.5"
