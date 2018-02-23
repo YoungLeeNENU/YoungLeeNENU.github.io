@@ -1,0 +1,8 @@
+.minibuffer {
+    position: fixed;
+    width: 100%;
+    min-height: 65px;
+    bottom: 0;
+    border-top: 1px solid #696969;
+    box-shadow: 0 10px 20px 10px black;
+}
