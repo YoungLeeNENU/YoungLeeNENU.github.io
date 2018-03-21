@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Fixedsys';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../../font/FSEX300.ttf);
+    font-family: 'Fixedsys';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../font/FSEX300.ttf);
 }
 
 .ylpn-welcome {
@@ -25,8 +25,12 @@
     visibility: hidden;
 }
 .ylpn-welcome .welcome-title .title-top {
+    display: inline-block;
+    height: 114px;
     color: #ee4000;
 }
 .ylpn-welcome .welcome-title .title-bottom {
+    display: inline-block;
+    height: 114px;
     color: #4682b4;
 }

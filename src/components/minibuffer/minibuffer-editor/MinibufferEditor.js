@@ -22,9 +22,12 @@ class MinibufferEditor extends Component {
     render () {
         return (
             <div className="minibuffer-editor">
-                <CodeMirror value={`M-x ${this.state.code}`}
-                            onChange={this.updateCode}
-                            options={this.minibufferEditorOptions} />
+                <div className="editor-directive">M-x</div>
+                <div className="editor-wrapper">
+                    <CodeMirror value={this.state.code}
+                                onChange={this.updateCode}
+                                options={this.minibufferEditorOptions} />
+                </div>
             </div>
         );
     }

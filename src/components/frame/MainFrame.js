@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import CodeMirror from 'react-codemirror';
 import './main-frame.css';
 
+require('codemirror/mode/javascript/javascript');
+require('codemirror/mode/markdown/markdown');
+
 class MainFrame extends Component {
-    constructor (prop) {
-        super(prop);
+    constructor () {
+        super(...arguments);
     }
 
     render () {
@@ -14,4 +18,3 @@ class MainFrame extends Component {
 }
 
 export default MainFrame;
-
