@@ -13,7 +13,7 @@ class App extends Component {
         return (
             <div className="ylpn">
                 <Welcome>
-                    <Cursor />
+                    <Cursor type="title-top" />
                 </Welcome>
                 <MainFrame />
                 <Minibuffer />

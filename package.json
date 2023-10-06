@@ -95,5 +95,6 @@
   },
   "devDependencies": {
     "prajna-wrapper-plugin": "^1.0.0-alpha.2"
-  }
+  },
+  "homepage" : "https://youngleenenu.github.io"
 }

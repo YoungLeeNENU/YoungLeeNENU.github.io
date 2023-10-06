@@ -23,7 +23,7 @@ class InternalDisplay extends Component {
 
     render () {
         return (
-            <span className={`title-top ${this.state.display ? 'interval-display' : 'interval-hide'}`}>'</span>
+            <span className={`${this.props.type} ${this.state.display ? 'interval-display' : 'interval-hide'}`}>'</span>
         );
     }
 }
@@ -33,7 +33,7 @@ class Welcome extends React.PureComponent {
         return (
             <div className="ylpn-welcome">
                 <h1 className="welcome-title">
-                    <span className="title-top">Young Lee</span>
+                    <span className="title-top">Marvin Lee</span>
                     {this.props.children}
                     <span className="title-top">s</span>
                 </h1>

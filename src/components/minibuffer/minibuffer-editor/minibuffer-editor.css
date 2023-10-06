@@ -12,6 +12,7 @@
     background-color: #666666;
     text-align: left;
 }
+
 .minibuffer-editor .editor-directive {
     display: inline-block;
     padding-left: 10px;
@@ -23,4 +24,32 @@
     letter-spacing: 2px;
     color: #cd2626;
     text-shadow: 1px 1px 1px #8b1a1a;
+}
+
+.minibuffer-editor .editor-link {
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    min-width: 40px;
+    text-align: center;
+    font-family: SourceCodePro, Helvetica Neue, Helvetica, SourceCodePro, Roboto, "Hiragino Sans GB", "STHeiti", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #cd2626;
+    text-shadow: 1px 1px 1px #8b1a1a;
+    text-decoration: none;
+}
+
+.minibuffer-editor .interval-hide {
+    visibility: hidden;
+}
+
+.minibuffer-editor .minibuffer-cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    line-height: 32px;
+    color: #cd2626;
+    background-color: #cd2626;
+    /* text-shadow: 1px 1px 1px #8b1a1a; */
 }
